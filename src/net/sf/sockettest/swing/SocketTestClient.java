@@ -48,7 +48,7 @@ import net.sf.sockettest.Util;
  */
 public class SocketTestClient extends JPanel {
 
-  private final String NEW_LINE = "\r\n";
+  private final String NEW_LINE = "\n";
   private final ClassLoader cl = getClass().getClassLoader();
   public ImageIcon logo = new ImageIcon(cl.getResource("icons/logo.gif"));
 
